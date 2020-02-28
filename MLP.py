@@ -142,4 +142,4 @@ for train_index , test_index in KFold(n_splits=n_folds,random_state=None, shuffl
 #Print how much money we earn/lose from each booker
 print(B365_money,BW_money,IW_money,LB_money)
 #Print the model layout
-tf.keras.utils.plot_model(model, 'my_first_model_with_shape_info1.png', show_shapes=True)
+# tf.keras.utils.plot_model(model, 'my_first_model_with_shape_info1.png', show_shapes=True)
